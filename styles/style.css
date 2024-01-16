@@ -1,0 +1,182 @@
+/* shared styles */
+@import url(https://fonts.bunny.net/css?family=mulish:400,700,800);
+
+* {
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    width: auto;
+    margin: 0 auto;
+}
+
+.heading {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+
+/* header styles */
+header {
+    display: flex;
+    margin-top: 53px;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
+
+.header div>img {
+    max-width: 100%;
+}
+
+.header h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.header-travel {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.header-home {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* nav styles */
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul>li {
+    padding-left: 44px;
+
+}
+
+/* banner styles */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position: center;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#banner-title {
+    color: #FFF;
+    font-size: 64px;
+    margin-top: 106px;
+}
+
+#banner-description {
+    color: #FFF;
+    margin-top: 24px;
+    text-wrap: wrap;
+    margin-left: 247px;
+    margin-right: 247px;
+    margin-bottom: 48px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-form>form {
+    display: flex;
+}
+
+.banner-input {
+    height: 40px;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
+
+.banner-phone {
+    display: inline;
+}
+
+.banner-form {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 106px;
+}
+
+input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 4px;
+}
+
+#banner-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#search {
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+}
+
+#down-arrow {
+    height: 24px;
+    position: relative;
+    right: 49px;
+    top: 19px;
+}
+
+#banner-input-margin{
+    margin-left: 26px;
+}

@@ -5,36 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ValorVista Travels</title>
     <script src="https://kit.fontawesome.com/e59d4e4282.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <h1>ValorVista <span>Travel</span></h1>
-    </header>
-    <nav>
-        <li>Home</li>
-        <li>Packages</li>
-        <li>Testimonial</li>
-        <li>Blog</li>
-        <li>Contact</li>
-    </nav>
-    <header>
-        <h1>Explore Your Travel</h1>
-        <p>Join us for a food adventure! Explore different cultures and regions through their delicious dishes. Dive into local cuisines that will make your taste buds really happy.</p>
-        <div>
-            <form>
-                <input placeholder="Where go" type="text">
-                <input placeholder="When" type="text">
-                <input placeholder="Select Type" type="text">
-                <input type="text">
-            </form>
-            <div>
-                <i class="fa-solid fa-phone"></i>
-                <button>Find Now</button>
-            </div>
+        <div class="header">
+            <img src="images/Group 40071 (2).png" alt="">
+            <h1>ValorVista<span class="header-travel">Travel</span></h1>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Packages</li>
+                    <li>Testimonial</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-
+        <section class="banner">
+            <div>
+            <h1 class="heading" id="banner-title">Explore Your Travel</h1>
+            <p class="paragraph" id="banner-description">Join us for a food adventure! Explore different cultures and regions through their delicious dishes. Dive into local cuisines that will make your taste buds really happy.</p>
+            </div>
+            <section class="banner-container">
+                <div class="banner-form">
+                    <form>
+                        <input class="banner-input" placeholder="Where go" type="text">
+                        
+                        <input id="banner-input-margin" class="banner-input" placeholder="When" type="text">
+                        <svg id="down-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        <input class="banner-input" placeholder="Select Type" type="text">
+                        <svg id="down-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        <button class="btn-primary" id="banner-btn"><i class="fa-solid fa-magnifying-glass" id="search"></i>Find Now</button>
+                    </form>
+                        
+                </div>
+            </section>
+        </section>
     </main>
     <footer>
 
