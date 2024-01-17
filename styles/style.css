@@ -6,7 +6,6 @@
     padding: 0;
     width: auto;
     margin: 0;
-    /* box-sizing: border-box; */
 }
 
 .heading {
@@ -246,7 +245,6 @@ input::placeholder {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 24px;
     width: 100%;
     height: 100%;
     margin-left: 135px;
@@ -380,3 +378,211 @@ input::placeholder {
     margin-top: 149px;
 }
 
+/* choose us styles */
+.choose-us-container {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.choose-us-reasons-list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+#choose-us-title {
+    margin-bottom: 24px;
+}
+
+#choose-us-description {
+    margin-bottom: 48px;
+}
+
+.choose-us-hotels {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    display: grid;
+    grid-column: 1/span 6;
+}
+
+.choose-us-hotels>img {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+.choose-us-hotels>h4 {
+    margin-bottom: 16px;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.best {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    display: grid;
+    grid-column: 7/span 6;
+}
+
+.price-guarantee {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 20px;
+    display: grid;
+    grid-column: 3/span 9;
+    grid-row: 2/span 2;
+}
+
+/* newsletter styles */
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+#newsletter-description {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.newsletter-form-container {
+    margin-top: 48px;
+
+}
+
+.newsletter-form {
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
+
+.newsletter-subscribe-form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+    margin-left: 135px;
+}
+
+.newsletter input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    border: none;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#subscribe {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    margin-left: 40px;
+}
+
+#off-btn {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-24.628deg);
+    position: relative;
+    left: -370px;
+    bottom: 120px;
+}
+
+#offer-web {
+    transform: rotate(-4.628deg);
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#offer-percent {
+    transform: rotate(-4.628deg);
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.travel-discount {
+    display: flex;
+}
+
+#travel-discount-img {
+    width: 672px;
+    height: 422px;
+    margin-left: 24px;
+}
+
+/* footer styles */
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 702px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#social {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 910px;
+    margin-right: 630px;
+}
+
+#rights {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-title {
+    margin-top: 110px;
+}
+
+#footer-img {
+    object-fit: cover;
+    width: 40px;
+    height: 46.673px;
+    margin-top: 110px;
+    margin-left: 700px;
+}
+
+#footer-description {
+    margin-top: 15px;
+}
