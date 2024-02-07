@@ -322,19 +322,20 @@ input::placeholder {
 
 /* choose us styles */
 .choose-us-container {
-    text-align: center;
-    justify-content: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
-
-.choose-us-reasons-list {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin-left: 135px;
-    margin-right: 135px;
+.choose-us-container h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 }
-
+.choose-us-container p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 #choose-us-title {
     margin-bottom: 24px;
 }
@@ -343,51 +344,38 @@ input::placeholder {
     margin-bottom: 48px;
 }
 
-.choose-us-hotels {
+.choose-us-reasons {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 135px;
+    margin-right: 135px;
+    gap: 20px;
+}
+
+.card-1 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 573px;
-    height: 284px;
-    display: grid;
     grid-column: 1/span 6;
+    padding: 50px;
 }
 
-.choose-us-hotels>img {
-    margin-top: 32px;
-    margin-left: 32px;
-    margin-bottom: 32px;
-}
-
-.choose-us-hotels>h4 {
-    margin-bottom: 16px;
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 24px;
-    font-weight: 800;
-}
-
-.best {
+.card-2 {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 573px;
-    height: 284px;
-    display: grid;
     grid-column: 7/span 6;
+    padding: 50px;
 }
 
-.price-guarantee {
-    width: 573px;
-    height: 284px;
+.card-3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    margin-top: 20px;
-    display: grid;
-    grid-column: 3/span 9;
-    grid-row: 2/span 2;
+    grid-column: 4/span 6;
+    grid-row: 2/span 1;
+    padding: 50px;
 }
 
 /* newsletter styles */
@@ -592,10 +580,24 @@ footer {
         padding: 0;
         margin: 0;
     }
-
-
-
-
+    .choose-us-reasons{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card-1{
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+    .card-2{
+        grid-column: 1/span 1;
+        grid-row: 2/ span 1;
+    }
+    .card-3{
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
 
 
 
